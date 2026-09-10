@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated incident reports
+reports/*.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Test / coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/

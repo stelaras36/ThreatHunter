@@ -1,0 +1,64 @@
+[
+    {
+        "event_id": "EVT-0001",
+        "timestamp": "2026-09-10T09:00:00",
+        "host": "WORKSTATION-01",
+        "user": "stelios",
+        "event_type": "process_creation",
+        "process_name": "explorer.exe",
+        "parent_process": "userinit.exe",
+        "command_line": "C:\\Windows\\explorer.exe"
+    },
+    {
+        "event_id": "EVT-0002",
+        "timestamp": "2026-09-10T09:05:00",
+        "host": "WORKSTATION-01",
+        "user": "stelios",
+        "event_type": "process_creation",
+        "process_name": "powershell.exe",
+        "parent_process": "explorer.exe",
+        "command_line": "powershell.exe -NoProfile Get-Process"
+    },
+    {
+        "event_id": "EVT-0003",
+        "timestamp": "2026-09-10T09:15:21",
+        "host": "WORKSTATION-01",
+        "user": "stelios",
+        "event_type": "process_creation",
+        "process_name": "powershell.exe",
+        "parent_process": "WINWORD.EXE",
+        "command_line": "powershell.exe -NoProfile -EncodedCommand TEST_BASE64_DATA"
+    },
+    {
+        "event_id": "EVT-0004",
+        "timestamp": "2026-09-10T09:15:25",
+        "host": "WORKSTATION-01",
+        "user": "stelios",
+        "event_type": "process_creation",
+        "process_name": "update.exe",
+        "parent_process": "powershell.exe",
+        "command_line": "C:\\Users\\stelios\\AppData\\Local\\Temp\\update.exe"
+    },
+    {
+        "event_id": "EVT-0005",
+        "timestamp": "2026-09-10T09:15:31",
+        "host": "WORKSTATION-01",
+        "user": "stelios",
+        "event_type": "network_connection",
+        "process_name": "powershell.exe",
+        "destination_ip": "203.0.113.50",
+        "destination_port": 443,
+        "protocol": "TCP"
+    },
+    {
+        "event_id": "EVT-0006",
+        "timestamp": "2026-09-10T09:16:02",
+        "host": "WORKSTATION-01",
+        "user": "stelios",
+        "event_type": "registry_modification",
+        "process_name": "update.exe",
+        "registry_key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "registry_value": "Updater",
+        "registry_data": "C:\\Users\\stelios\\AppData\\Local\\Temp\\update.exe"
+    }
+]
